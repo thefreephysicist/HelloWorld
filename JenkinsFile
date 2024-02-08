@@ -7,10 +7,6 @@ pipeline {
                 // Get some code from a GitHub repository
                 echo "Hello world!"
             }
-
-            post {
-                echo "Posting"
-            }
         }
         stage('Test') {
             steps {
